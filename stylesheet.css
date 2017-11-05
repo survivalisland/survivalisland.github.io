@@ -23,7 +23,7 @@
     font-style: normal;
 }
 
-.link:hover {
+#link:hover {
     background-color: orange;
 }
 
@@ -40,7 +40,7 @@
     cursor: pointer;
 }
 
-.link:link, .link:visited {
+#link:link, #link:visited {
     background-color: #FFA500;
     color: white;
     padding: 14px 25px;
@@ -49,7 +49,7 @@
     display: inline-block;
 }
 
-.link:hover, .link:active {
+#link:hover, #link:active {
     background-color: red;
 }
 
