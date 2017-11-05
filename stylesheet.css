@@ -11,7 +11,6 @@
     font-family: 'Treasure Map Deadhand';
     src: url('/storage/fonts/TreasureMapDeadhand.eot');
     src:
-        url('/storage/fonts/TreasureMapDeadhand.ttf') format('opentype');
         url('/storage/fonts/TreasureMapDeadhand.otf') format('opentype');
         url('/storage/fonts/TreasureMapDeadhand.woff') format('woff');
         url('/storage/fonts/TreasureMapDeadhand.svg#filename') format('svg');
