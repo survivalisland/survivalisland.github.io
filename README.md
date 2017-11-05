@@ -1,1 +1,3 @@
-survivalisland.github.io
+#Survival Island: Choose Your Adventure
+
+[*Survival Island*](https://survivalisland.github.io) is a "choose your own adventure game" with two versions, one with a single linear storyline, and one with multiple storylines like a tree diagram. It was developed by Peyton Carroll, Justin He, Ishan Madan, and Michael Wang. *Survival Island* was developed for the Firebird Hacks hackathon ([firebirdhacks.com](http://firebirdhacks.com)) and uses front-end Web Development technologies and Java. This project took the duration of a 24-hr clock to develop. There is an online version (v1) and Java executable downloads (v1 and v2).
