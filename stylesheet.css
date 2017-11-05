@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Avenir Next Regular';
+    src: url('storage/fonts/AvenirNext.eot');
+    src:
+    url('storage/fonts/AvenirNext-Regular.otf') format('opentype');
+    url('storage/fonts/AvenirNext-Regular.woff') format('woff');
+    url('storage/fonts/AvenirNext-Regular.svg#filename') format('svg');
+}
+
+* {
+    font-family: 'Avenir Next Regular', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
