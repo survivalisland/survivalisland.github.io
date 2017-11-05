@@ -2,13 +2,23 @@
     font-family: 'Avenir Next Regular';
     src: url('/storage/fonts/AvenirNext.eot');
     src:
-    url('/storage/fonts/AvenirNext-Regular.otf') format('opentype');
-    url('/storage/fonts/AvenirNext-Regular.woff') format('woff');
-    url('/storage/fonts/AvenirNext-Regular.svg#filename') format('svg');
+        url('/storage/fonts/AvenirNext-Regular.otf') format('opentype');
+        url('/storage/fonts/AvenirNext-Regular.woff') format('woff');
+        url('/storage/fonts/AvenirNext-Regular.svg#filename') format('svg');
+}
+
+@font-face {
+    font-family: 'Treasure Map Deadhand';
+    src: url('/storage/fonts/TreasureMapDeadhand.eot');
+    src:
+        url('/storage/fonts/TreasureMapDeadhand.ttf') format('opentype');
+        url('/storage/fonts/TreasureMapDeadhand.otf') format('opentype');
+        url('/storage/fonts/TreasureMapDeadhand.woff') format('woff');
+        url('/storage/fonts/TreasureMapDeadhand.svg#filename') format('svg');
 }
 
 * {
-    font-family: 'Avenir Next Regular', Arial, sans-serif;
+    font-family: 'Treasure Map Deadhand', Arial, sans-serif;
     font-weight: normal;
     font-style: normal;
 }
