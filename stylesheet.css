@@ -112,3 +112,7 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+h3 {
+    font-size: 24px;
+}
