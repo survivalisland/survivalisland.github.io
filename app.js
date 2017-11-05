@@ -170,6 +170,8 @@ function death() {
             appendText("You ask Snoop Dogg if he is here to help.");
             appendText("He replies 'Fo shizzle, go watch some televizzle.'");
             appendText("He brings you and Piglet back to the mainland and you live happily ever after.");
+            break;
+            
         default:
             clearScreen();
             appendText("Fatal Error. Please reload.");
