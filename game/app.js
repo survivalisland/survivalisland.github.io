@@ -36,7 +36,6 @@ var story15 = new story(["You sit on the beach and relax in the sun.", "Eventual
 var sayings = [story1, story2, story3, story4, story5, story6, story7, story8, story9, story10, story11, story12, story13, story14, story15];
 function showSelection() {
     $("#content").append("<p class='choice'>1: <input type='radio' name='choice' value='1' class='choice'></p><p class='choice'>2: <input type='radio' name='choice' value='2' class='choice'></p>");
-    $("#content").append("");
 }
 function hideSelection() {
     if (int >= 0) {

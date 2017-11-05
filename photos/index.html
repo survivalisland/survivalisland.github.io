@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survival Island: Choose Your Adventure - About</title>
+        <link rel="shortcut icon" href="/storage/favicon.png" type="image/png">
+        <link rel="stylesheet" type"text/css" href="stylesheet.css">
+    </head>
+    <body>
+            <div class="dropdown">
+                <h3><strong>Menu</strong></h3>
+                    <div class="dropdown-content">
+                        <a id="link" href="/about" target="_blank" style="font-size: 24px"><strong>About</strong></a>
+                        <br>
+                        <br>
+                        <a id="link" href="/howtoplay" target="_blank" style="font-size: 24px"><strong>How to play</strong></a>
+                    </div>
+                </div>
+        <center>
+            <a href="/" style="text-decoration: none;">
+                <h1 style="font-size: 40px"><strong>Survival Island:</strong></h1>
+                <h1 style="font-size: 34px">Choose Your Adventure</h1>
+            </a>
+        </center>
+        <center id="photos">
+            <script>
+                var photos = ["berries and shrooms.png", "fight.png", "fight2.png", "help.png", "house.png", "mysterious.png", "mystery man.png", "nemoji.png", "pigga.png", "plane.jpg", "snoopdogg.png", "spidey and morio.jpg"];
+                for (var i = 0; i < photos.length; i++) {
+                    $("#photos").append("<img src='/storage/backgrounds/'" + photos[i] + ">");
+                }
+            </script>
+        </center>
+    </body>
+</html>

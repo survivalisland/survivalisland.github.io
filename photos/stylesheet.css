@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Avenir Next Regular';
+    src: url('/storage/fonts/AvenirNext.eot');
+    src:
+        url('/storage/fonts/AvenirNext-Regular.otf') format('opentype');
+        url('/storage/fonts/AvenirNext-Regular.woff') format('woff');
+        url('/storage/fonts/AvenirNext-Regular.svg#filename') format('svg');
+}
+
+@font-face {
+    font-family: 'Treasure Map Deadhand';
+    src: url('/storage/fonts/TreasureMapDeadhand.eot');
+    src:
+        url('/storage/fonts/TreasureMapDeadhand.otf') format('opentype');
+        url('/storage/fonts/TreasureMapDeadhand.woff') format('woff');
+        url('/storage/fonts/TreasureMapDeadhand.svg#filename') format('svg');
+}
+
+* {
+    font-family: 'Treasure Map Deadhand', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+#link:hover {
+    background-color: orange;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#link:link, #link:visited {
+    background-color: #FFA500;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#link:hover, #link:active {
+    background-color: red;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: blue;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 3000px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+h3 {
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+#about-text {
+    font-size: 24px;
+}
